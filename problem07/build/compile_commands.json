@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/problem07/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\problem07-tests.dir\\problem07_tests.cpp.obj -c C:\\Users\\gkyen\\Downloads\\problem07\\problem07_tests.cpp",
+  "file": "C:/Users/gkyen/Downloads/problem07/problem07_tests.cpp",
+  "output": "CMakeFiles/problem07-tests.dir/problem07_tests.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/problem07/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\problem07-tests.dir\\Database.cpp.obj -c C:\\Users\\gkyen\\Downloads\\problem07\\Database.cpp",
+  "file": "C:/Users/gkyen/Downloads/problem07/Database.cpp",
+  "output": "CMakeFiles/problem07-tests.dir/Database.cpp.obj"
+}
+]

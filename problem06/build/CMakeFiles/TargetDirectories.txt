@@ -1,0 +1,5 @@
+C:/Users/gkyen/Downloads/problem06/build/CMakeFiles/problem06-tests.dir
+C:/Users/gkyen/Downloads/problem06/build/CMakeFiles/submission.dir
+C:/Users/gkyen/Downloads/problem06/build/CMakeFiles/test.dir
+C:/Users/gkyen/Downloads/problem06/build/CMakeFiles/edit_cache.dir
+C:/Users/gkyen/Downloads/problem06/build/CMakeFiles/rebuild_cache.dir

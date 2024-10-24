@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\problem06-tests.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\problem06-tests.dir/objects.a @CMakeFiles\problem06-tests.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\problem06-tests.dir/objects.a -Wl,--no-whole-archive -o problem06-tests.exe -Wl,--out-implib,libproblem06-tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\problem06-tests.dir\linkLibs.rsp

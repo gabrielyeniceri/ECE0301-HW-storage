@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/problem06/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\problem06-tests.dir\\problem06_tests.cpp.obj -c C:\\Users\\gkyen\\Downloads\\problem06\\problem06_tests.cpp",
+  "file": "C:/Users/gkyen/Downloads/problem06/problem06_tests.cpp",
+  "output": "CMakeFiles/problem06-tests.dir/problem06_tests.cpp.obj"
+}
+]
