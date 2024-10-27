@@ -3,38 +3,45 @@
 
 #include <string>
 #include <fstream>
+#include <stdexcept>
 
 class Signal {
-    public:
-        // provided: max samples
-        static const int MAX_SAMPLES = 200;
+public:
+    // provided: max samples
+    static const int MAX_SAMPLES = 200;
 
-        // TODO: constructors
+    // constructors
+    Signal(); 
+    Signal(int num_samples, int sampling_freq);
 
-        // TODO: accessors
+    // accessirs
+    int get_samples() const;
+    int get_sampling_freq() const;
 
-        // provided: assign values to signals
-        void zeros();
-        void constant(double val);
+    // provided: assign values to signal
+    void zeros();
+    void constant(double val);
+    void sinusoid(double amplitude, int freq, double phase);
 
-        // TODO: sinusoid
+    // provided: exports
+    void export_signal(double time[], double values[]);
+    bool export_csv(std::string outfile);
 
-        // TODO: overloaded operators
+    // overloaded operators
+    bool operator==(const Signal& other) const;
+    bool operator!=(const Signal& other) const;
+    Signal operator+(const Signal& other) const;
 
-        // provided: exports
-        void export_signal(double time[], double values[]); 
-        bool export_csv(std::string outfile);
+private:
+    // provided: Point struct, private members
+    struct Point {
+        double time;
+        double value;
+    };
 
-    private:
-        // provided: Point struct, private members
-        struct Point {
-            double time;
-            double value;
-        };
-
-        int num_samples;
-        int sampling_freq;
-        Point sig_data[MAX_SAMPLES];
+    int num_samples;
+    int sampling_freq;
+    Point sig_data[MAX_SAMPLES];
 };
 
 #endif

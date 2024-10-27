@@ -62,5 +62,22 @@ TEST_CASE("Test default construction zeros", "[signal]"){
         REQUIRE(val_diff <= THRESHOLD);
     }
 }
+//Test case
+TEST_CASE("Test sinusoid generation", "[signal]") {
+    Signal s;
+    double amplitude = 5.0;
+    int frequency = 10;
+    double phase = 0.0;
 
-/* Your test cases here */
+    s.sinusoid(amplitude, frequency, phase);
+    
+    double time[101];
+    double values[101];
+    s.export_signal(time, values);
+
+    for (int i = 0; i < s.get_samples(); i++) {
+        double expected_value = amplitude * cos(2 * M_PI * frequency * time[i] + phase);
+        REQUIRE(std::abs(values[i] - expected_value) <= THRESHOLD);
+    }
+}
+

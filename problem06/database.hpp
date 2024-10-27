@@ -124,7 +124,7 @@ bool remove_entry(const double id,
 
     // New size
     double *new_database = new double[(rows - 1) * COLS];
-
+    
     // Copies to new database, but skips the one to remove
     for (int r = 0, new_r = 0; r < rows; r++) {
         if (r == row_to_remove) {

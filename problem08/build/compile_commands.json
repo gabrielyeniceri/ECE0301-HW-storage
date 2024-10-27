@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem08/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_signal.dir\\test_signal.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem08\\test_signal.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem08/test_signal.cpp",
+  "output": "CMakeFiles/test_signal.dir/test_signal.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem08/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_signal.dir\\Signal.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem08\\Signal.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem08/Signal.cpp",
+  "output": "CMakeFiles/test_signal.dir/Signal.cpp.obj"
+}
+]
