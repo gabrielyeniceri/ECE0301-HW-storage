@@ -102,3 +102,12 @@ TEST_CASE("Test operator+", "[image]"){
 }
 
 /* Your test cases here */
+
+TEST_CASE("Test zero size image", "[image]") {
+    Image im(0);
+    REQUIRE(im.get_width() == 0);
+    REQUIRE(im.get_height() == 0);
+
+    REQUIRE_THROWS_AS(im.set_pixel(0, RED), std::out_of_range);
+    REQUIRE_THROWS_AS(im.get_pixel(0), std::out_of_range);
+}

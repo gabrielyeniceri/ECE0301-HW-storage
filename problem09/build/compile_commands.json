@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem09/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_image.dir\\test_image.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem09\\test_image.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem09/test_image.cpp",
+  "output": "CMakeFiles/test_image.dir/test_image.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem09/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_image.dir\\Image.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem09\\Image.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem09/Image.cpp",
+  "output": "CMakeFiles/test_image.dir/Image.cpp.obj"
+}
+]
