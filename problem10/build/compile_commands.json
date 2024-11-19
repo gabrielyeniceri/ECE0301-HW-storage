@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\test_network.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\test_network.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/test_network.cpp",
+  "output": "CMakeFiles/test_network.dir/test_network.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\Node.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\Node.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/Node.cpp",
+  "output": "CMakeFiles/test_network.dir/Node.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\Component.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\Component.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/Component.cpp",
+  "output": "CMakeFiles/test_network.dir/Component.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\Network.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\Network.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/Network.cpp",
+  "output": "CMakeFiles/test_network.dir/Network.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\VoltageSource.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\VoltageSource.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/VoltageSource.cpp",
+  "output": "CMakeFiles/test_network.dir/VoltageSource.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\CurrentSource.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\CurrentSource.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/CurrentSource.cpp",
+  "output": "CMakeFiles/test_network.dir/CurrentSource.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\Resistor.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\Resistor.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/Resistor.cpp",
+  "output": "CMakeFiles/test_network.dir/Resistor.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\VoltageDivider.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\VoltageDivider.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/VoltageDivider.cpp",
+  "output": "CMakeFiles/test_network.dir/VoltageDivider.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem10/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_network.dir\\CurrentDivider.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem10\\CurrentDivider.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem10/CurrentDivider.cpp",
+  "output": "CMakeFiles/test_network.dir/CurrentDivider.cpp.obj"
+}
+]

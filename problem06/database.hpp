@@ -102,6 +102,10 @@ bool add_entry(const double new_row[],
     return true; // Successful
 }
 
+//The remove_entry function first locates the row with the specified ID by iterating through the data and comparing the ID field. 
+//If the ID is found, it creates a dynamic array with one less row, so it copies over all but the one that needs to be removed. 
+//Then it deletes the old data and updates the pointer and row count. 
+
 bool remove_entry(const double id, 
                   double *&database, int &rows) {
     int id_col = column_index("ID");
@@ -135,12 +139,10 @@ bool remove_entry(const double id,
         }
         new_r++;
     }
-
     // Updates pointer
     delete[] database;
     database = new_database;
     rows--;
-
     return true; // Success
 }
 

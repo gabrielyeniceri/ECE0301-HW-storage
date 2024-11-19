@@ -111,3 +111,24 @@ TEST_CASE("Test zero size image", "[image]") {
     REQUIRE_THROWS_AS(im.set_pixel(0, RED), std::out_of_range);
     REQUIRE_THROWS_AS(im.get_pixel(0), std::out_of_range);
 }
+TEST_CASE("Bonus: Remove red pixel noise", "[image][bonus]") {
+    Image img;
+    REQUIRE(img.load_from_file("bonus_test.bmp"));
+
+    int width = img.get_width();
+    int height = img.get_height();
+    int total_pixels = width * height;
+
+    // Remove red pixel noise
+    for (int i = 0; i < total_pixels; ++i)
+    {
+        RGBPIXEL pixel = img.get_pixel(i);
+        if (pixel == RED) {
+            // Set pixel to BLACK or any other desired color
+            img.set_pixel(i, BLACK);
+        }
+    }
+
+    // Save the resulting image
+    REQUIRE(img.save_to_file("bonus_result.bmp"));
+}
