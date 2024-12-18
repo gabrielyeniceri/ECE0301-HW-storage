@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/ECE0201-BONUS/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe   -g -std=gnu++11 -o CMakeFiles\\BONUS.dir\\BONUS.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\ECE0201-BONUS\\BONUS.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/ECE0201-BONUS/BONUS.cpp",
+  "output": "CMakeFiles/BONUS.dir/BONUS.cpp.obj"
+}
+]

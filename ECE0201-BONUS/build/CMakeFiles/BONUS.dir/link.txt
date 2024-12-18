@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\BONUS.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\BONUS.dir/objects.a @CMakeFiles\BONUS.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\BONUS.dir/objects.a -Wl,--no-whole-archive -o BONUS.exe -Wl,--out-implib,libBONUS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BONUS.dir\linkLibs.rsp

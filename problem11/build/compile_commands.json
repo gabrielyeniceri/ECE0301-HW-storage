@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem11/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_sim.dir\\test_sim.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem11\\test_sim.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem11/test_sim.cpp",
+  "output": "CMakeFiles/test_sim.dir/test_sim.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem11/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_sim.dir\\Flora.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem11\\Flora.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem11/Flora.cpp",
+  "output": "CMakeFiles/test_sim.dir/Flora.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem11/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_sim.dir\\Prey.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem11\\Prey.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem11/Prey.cpp",
+  "output": "CMakeFiles/test_sim.dir/Prey.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem11/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_sim.dir\\Predator.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem11\\Predator.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem11/Predator.cpp",
+  "output": "CMakeFiles/test_sim.dir/Predator.cpp.obj"
+},
+{
+  "directory": "C:/Users/gkyen/Downloads/ECE0301/problem11/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\test_sim.dir\\Simulator.cpp.obj -c C:\\Users\\gkyen\\Downloads\\ECE0301\\problem11\\Simulator.cpp",
+  "file": "C:/Users/gkyen/Downloads/ECE0301/problem11/Simulator.cpp",
+  "output": "CMakeFiles/test_sim.dir/Simulator.cpp.obj"
+}
+]

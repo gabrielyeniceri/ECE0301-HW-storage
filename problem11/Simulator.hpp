@@ -24,7 +24,7 @@ class Simulator {
         bool export_image(std::string outfile);
 
     private:
-        Grid simgrid;
+        Grid<Agent> simgrid;
         Location loc_from_direction(Location loc, Direction dir);
         void update_flora(Location loc);
         void update_prey(Location loc);

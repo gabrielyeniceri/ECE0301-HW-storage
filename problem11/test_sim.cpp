@@ -360,3 +360,54 @@ TEST_CASE("Simulator: Test Simulator Prey movement", "[simulator]"){
     TODO: Your test cases here
 =======================================================================
 */
+TEST_CASE("Simulator: Test Prey eating Flora", "[simulator]") {
+    Simulator s;
+    Location flora_loc = {2,2};
+    Location prey_loc = {3,2};
+// gives flora energy, prey is initially up so it moves up to eat the flora
+    REQUIRE(s.set(flora_loc, VEGETATION));
+    REQUIRE(s.set(prey_loc, PREY));
+
+    s.energize(flora_loc, 3*Flora::GROW_ENERGY); 
+    AgentType flora_type = s.get_type(flora_loc);
+    REQUIRE(flora_type == VEGETATION);
+    s.update();
+    REQUIRE(s.get_type(flora_loc) == PREY);
+    REQUIRE(s.get_type(prey_loc) == NONE);
+    REQUIRE_FALSE(s.done());
+}
+//removes and adds prey and flora
+TEST_CASE("Simulator: Test done condition with mixed agents", "[simulator]") {
+    Simulator s;
+    Location flora_loc = {0,0};
+    Location prey_loc = {1,1};
+    REQUIRE(s.set(flora_loc, VEGETATION));
+    REQUIRE(s.set(prey_loc, PREY));
+    REQUIRE_FALSE(s.done());
+    s.remove(prey_loc);
+    REQUIRE(s.get_type(prey_loc) == NONE);
+    REQUIRE(s.done());
+    Location predator_loc = {2,2};
+    REQUIRE(s.set(predator_loc, PREDATOR));
+    REQUIRE_FALSE(s.done());
+    s.remove(predator_loc);
+    REQUIRE(s.done());
+}
+//resizes the grid and places flora and prey back on
+TEST_CASE("Simulator: Test Simulator after resizing", "[simulator]") {
+    Simulator s;
+    Location flora_loc {0,0};
+    Location prey_loc {1,1};
+    REQUIRE(s.set(flora_loc, VEGETATION));
+    REQUIRE(s.set(prey_loc, PREY));
+    REQUIRE_FALSE(s.done());
+    int new_size = 15;
+    Simulator s2(new_size);
+    REQUIRE(s2.size() == new_size);
+    REQUIRE(s.done());
+    REQUIRE(s.set(flora_loc, VEGETATION));
+    REQUIRE(s.set(prey_loc, PREY));
+    REQUIRE_FALSE(s.done());
+    REQUIRE(s.remove(prey_loc));
+    REQUIRE(s.done());
+}
